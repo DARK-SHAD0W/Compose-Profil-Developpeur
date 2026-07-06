@@ -64,9 +64,6 @@ laissant le parent décider de son placement. Les deux previews ci-dessous le pr
 composables affichent deux profils entièrement différents.
 
 ## Aperçu
-
-| Profil junior (disponible) | Profil full-stack (non disponible) |
-|---|---|
 | ![Profil Ahmed](capture/profil-ahmed.png) |
 | ![Profil Sofia Martin](capture/profil-sofia.png) |
 
