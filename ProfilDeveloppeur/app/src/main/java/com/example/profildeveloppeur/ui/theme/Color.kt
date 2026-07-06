@@ -2,10 +2,19 @@ package com.example.profildeveloppeur.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-val Purple80 = Color(0xFFD0BCFF)
-val PurpleGrey80 = Color(0xFFCCC2DC)
-val Pink80 = Color(0xFFEFB8C8)
+// Palette du thème sombre : tons clairs pour rester lisibles sur fond foncé.
+val BleuAcierClair = Color(0xFF9FC9F2)
+val VertSaugeClair = Color(0xFFA8CFC4)
+val OrDouxClair = Color(0xFFD9B77A)
 
-val Purple40 = Color(0xFF6650a4)
-val PurpleGrey40 = Color(0xFF625b71)
-val Pink40 = Color(0xFF7D5260)
+// Palette du thème clair : tons soutenus, sobres, sans couleurs vives.
+val BleuAcierFonce = Color(0xFF35618E)
+val VertSaugeFonce = Color(0xFF4F7A72)
+val OrDouxFonce = Color(0xFF8A6D3F)
+
+// Fonds clairs utilisés directement sur des Surface, un par composable,
+// pour que chaque section de la fiche soit visuellement distincte.
+val FondCarte = Color(0xFFDBDDDE)
+val FondEntete = Color(0xFFC9DDEF)
+val FondCompetence = Color(0xFFD3E8D0)
+val FondBadgeDisponibilite = Color(0xFFE6D8B8)

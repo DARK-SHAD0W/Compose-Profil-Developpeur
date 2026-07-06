@@ -8,6 +8,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.example.profildeveloppeur.ui.theme.FondCarte
 import com.example.profildeveloppeur.ui.theme.ProfilDeveloppeurTheme
 
 // Assemble la fiche complète ; padding(20.dp) est le padding interne de la carte,
@@ -24,7 +25,7 @@ fun CarteProfil(
     onContacterClick: () -> Unit,
     modifier: Modifier = Modifier
 ) {
-    Surface(modifier = modifier) {
+    Surface(modifier = modifier, color = FondCarte) {
         Column(modifier = Modifier.padding(20.dp)) {
             IdentiteDeveloppeur(nom = nom, role = role)
             Text(
