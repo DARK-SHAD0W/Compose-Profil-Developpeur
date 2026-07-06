@@ -2,7 +2,7 @@
 
 Écran Jetpack Compose affichant une fiche de profil développeur : nom, rôle, courte description,
 liste de compétences, disponibilité et action de contact. Réalisé dans le cadre du devoir
-« Créer une fiche Profil développeur avec Compose » . L'interface est découpée en
+« Créer une fiche Profil développeur avec Compose ». L'interface est découpée en
 plusieurs composables réutilisables et acceptant des paramètres, avec deux previews montrant
 deux profils différents.
 
@@ -64,8 +64,10 @@ laissant le parent décider de son placement. Les deux previews ci-dessous le pr
 composables affichent deux profils entièrement différents.
 
 ## Aperçu
-| ![Profil Ahmed](capture/profil-ahmed.png) |
-| ![Profil Sofia Martin](capture/profil-sofia.png) |
+
+| Profil junior (disponible) | Profil full-stack (non disponible) |
+|---|---|
+| ![Profil Ahmed](capture/profil-ahmed.png) | ![Profil Sofia Martin](capture/profil-sofia.png) |
 
 > Les deux jeux de données ci-dessus sont aussi visibles directement dans Android Studio via les
 > previews `ApercuProfilJunior` et `ApercuProfilExperimente` dans `CarteProfil.kt`.
